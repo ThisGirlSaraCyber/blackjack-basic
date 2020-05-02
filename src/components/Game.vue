@@ -21,7 +21,7 @@ export default {
   components: { Dealer, Player },
   data () {
     return {
-      mainMessage: 'Welcome to Black Jack',
+      mainMessage: 'Welcome to a game of Blackjack-Basic Strategy',
       playersResult: 0,
       dealersResult: 0,
       showButtons: true,
@@ -44,10 +44,10 @@ export default {
         return ''
       }
       if (this.playersResult > this.dealersResult || this.dealersResult === 'Bust') {
-        return 'You Win'
+        return 'YAY'
       }
       if (this.playersResult < this.dealersResult || this.playersResult === 'Bust') {
-        return 'You Lose'
+        return 'Try again'
       }
       return 'Draw'
     }
@@ -72,6 +72,6 @@ export default {
 
 .result {
   font-size: 3rem;
-  color: orangered;
+  color: yellowgreen;
 }
 </style>

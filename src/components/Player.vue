@@ -59,11 +59,10 @@ export default {
 button {
   font-size: 1.5rem;
   font-weight: bold;
-  width: 100px;
-  height: 48px;
-  margin: 1rem;
+  width: 250px;
+  height: 45px;
   color: white;
-  background: #42b983;
-  border-radius: 10px;
+  background: #d8623f;
+  border-radius: 15px;
 }
 </style>
