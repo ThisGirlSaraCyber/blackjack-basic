@@ -62,7 +62,7 @@ button {
   width: 250px;
   height: 45px;
   color: white;
-  background: #d8623f;
+  background: orange;
   border-radius: 15px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <img :src="image" height="280">
+    <img :src="image" height="200">
   </div>
 </template>
 

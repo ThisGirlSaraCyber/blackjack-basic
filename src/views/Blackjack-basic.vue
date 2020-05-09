@@ -26,10 +26,10 @@ export default {
 button {
   font-size: 1.5rem;
   font-weight: bold;
-  width: 250px;
+  width: 200px;
   height: 45px;
   color: white;
-  background: #1cd698;
+  background: blueviolet;
   border-radius: 15px;
 }
 </style>

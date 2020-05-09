@@ -72,6 +72,6 @@ export default {
 
 .result {
   font-size: 3rem;
-  color: yellowgreen;
+  color: blueviolet;
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>|
-      <router-link to="/blackjack-basic">The Blackjack-Basic Game</router-link>
+      <router-link to="/">Vue Env.</router-link>|
+      <router-link to="/about">Blackjack - Basic Strategy Rules</router-link>|
+      <router-link to="/blackjack-basic">The Blackjack - Basic Strategy Game</router-link>
     </div>
     <router-view />
   </div>

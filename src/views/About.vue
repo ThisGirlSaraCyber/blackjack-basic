@@ -1,5 +1,19 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <img :src="image">
   </div>
 </template>
+
+<script>
+export default {
+  name: 'about',
+  props: {
+    number: Number,
+  },
+  computed: {
+    image: function () {
+      return require(`../assets/BJA_Basic_Strategy.jpg`)
+    }
+  }
+}
+</script>
